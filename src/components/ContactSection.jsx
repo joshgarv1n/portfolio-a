@@ -17,11 +17,11 @@ const ContactSection = () => {
                     <div className="flex w-full gap-6">
                         {/* Contact Form */}
                         <form className="w-1/2">
-                            <input className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 mb-4" placeholder="Name" />
+                            <input className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 mb-4" placeholder="Name" required />
 
-                            <input className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 mb-4" placeholder="Email" />
+                            <input className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 mb-4" placeholder="Email" required />
 
-                            <textarea className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 py-2 mb-4" placeholder="Message" rows="6" />
+                            <textarea className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 py-2 mb-4" placeholder="Message" rows="6" required />
 
                             <button className="w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm shadow-md focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800 hover:bg-stone-800">Send Message</button>
                         </form>

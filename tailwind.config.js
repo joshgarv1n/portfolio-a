@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         'hero-img': "url('/src/assets/water-bg.jpg')",
       },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],

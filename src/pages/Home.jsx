@@ -26,7 +26,7 @@ const Home = () => {
                         </a>
                     </div>
                     <div className="flex justify-center space-x-4 mt-6">
-                        <a href="./public/resume.pdf" download className="flex items-center px-4 py-2 border-2 border-orange-500 text-sm md:text-base text-neutral-50 rounded-full hover:bg-slate-400 hover:bg-opacity-50 hover:text-neutral-50 transition duration-300">
+                        <a href="/resume.pdf" download className="flex items-center px-4 py-2 border-2 border-orange-500 text-sm md:text-base text-neutral-50 rounded-full hover:bg-slate-400 hover:bg-opacity-50 hover:text-neutral-50 transition duration-300">
                             Resume <HiOutlineDownload size={18} md:size={20} className="ml-2" />
                         </a>
                         <a href="#contact" className="px-4 py-2 border-2 border-neutral-50 text-sm md:text-base text-neutral-50 rounded-full hover:bg-slate-400 hover:bg-opacity-50 hover:text-white transition duration-300">

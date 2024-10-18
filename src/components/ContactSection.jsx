@@ -21,7 +21,7 @@ const ContactSection = () => {
 
                         {/* Socials */}
                         <div className="flex flex-col w-1/2 gap-y-4">
-                            <p>Thanks for visiting! Feel free to leave a message here, explore my projects, or download my resume.</p>
+                            <p>Thanks for visiting! Feel free to leave a message here, explore my <a href="#" className="font-semibold hover:underline">projects</a>, or download my <a href="./public/resume.pdf" download className="font-semibold hover:underline">resume</a>.</p>
                             <div className="flex items-center gap-x-3">
                                 <LuMail size={20} className="text-white" />
                                 <a href="mailto:jgarvin.dev@gmail.com?subject=Portfolio Contact" className="hover:text-orange-500">jgarvin.dev@gmail.com</a>

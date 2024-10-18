@@ -25,7 +25,7 @@ const ContactForm = () => {
     };
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="w-1/2">
+        <form ref={form} onSubmit={sendEmail} className="order-2 md:order-1 md:w-1/2">
             <input className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 mb-4" placeholder="Name" name="user_name" required />
 
             <input className="bg-neutral-700 w-full rounded-md min-h-10 border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 placeholder:text-sm px-4 mb-4" placeholder="Email" name="user_email" required />

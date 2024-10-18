@@ -1,15 +1,16 @@
 const ResumeSection = () => {
     return (
-        <section id="resume" className="flex items-center justify-center bg-neutral-100 px-4 py-24 font-montserrat">
+        <section id="resume" className="flex items-center justify-center bg-neutral-100 px-4 py-12 md:py-24 font-montserrat">
             <div className="flex flex-col items-center justify-center max-w-screen-lg w-full">
-            <div id="education" className="flex justify-between w-full">
-                <div className="flex flex-col lg:w-1/4">
-                    <h2 className="font-bold text-xl text-neutral-800 uppercase">Education</h2>
-                    <div className="border-b-2 border-orange-500 w-28 mt-1"></div>
+            <div id="education" className="flex flex-col md:flex-row items-center md:items-start justify-between w-full">
+                <div className="flex flex-col md:w-1/4">
+                    <div className="relative inline-block pb-4">
+                        <h2 className="font-bold text-xl text-neutral-800 uppercase border-b-2 border-orange-500 pb-1 inline-block">Education</h2>
+                    </div>
                 </div>
-                <div className="flex flex-col lg:w-3/4">
+                <div className="flex flex-col items-center md:items-start lg:w-3/4">
                     <div className="pb-8">
-                        <h2 className="font-semibold text-xl text-neutral-700">BS Computer Science</h2>
+                        <h2 className="font-semibold text-center md:text-start text-xl text-neutral-700">BS Computer Science</h2>
                         <div className="flex items-center justify-start gap-x-2 text-sm">
                             <span>University of Houston</span>
                             <span>•</span>
@@ -27,17 +28,18 @@ const ResumeSection = () => {
 
             <hr className="border-t-2 border-neutral-300 my-8 w-full" />
             
-            <div id="work" className="flex justify-between w-full">
-                <div className="flex flex-col lg:w-1/4">
-                    <h2 className="font-bold text-xl text-neutral-800 uppercase">Work</h2>
-                    <div className="border-b-2 border-orange-500 w-16 mt-1"></div>
+            <div id="work" className="flex flex-col md:flex-row items-center md:items-start justify-between w-full">
+                <div className="flex flex-col md:w-1/4">
+                    <div className="relative inline-block pb-4">
+                        <h2 className="font-bold text-xl text-neutral-800 uppercase border-b-2 border-orange-500 pb-1 inline-block">Work</h2>
+                    </div>
                 </div>
-                <div className="flex flex-col lg:w-3/4">
-                    <h2 className="font-semibold text-xl text-neutral-700">International Game Technology IGT</h2>
+                <div className="flex flex-col items-center md:items-start lg:w-3/4">
+                    <h2 className="font-semibold text-center md:text-start text-xl text-neutral-700">International Game Technology IGT</h2>
                     <div className="flex items-center justify-start gap-x-2 text-sm pb-5">
                         <span>Computer Operator I</span>
                         <span>•</span>
-                        <span>January 2020 - September 2021</span>
+                        <span>Jan 2020 - Sept 2021</span>
                     </div>
                     <p>This is where I will discuss my role with this employer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aut libero voluptatibus sit, deleniti, officiis nihil autem quaerat harum sint ex numquam temporibus recusandae minus, cupiditate odit error in placeat.</p>
                 </div>
@@ -45,16 +47,17 @@ const ResumeSection = () => {
             
             <hr className="border-t-2 border-neutral-300 my-8 w-full" />
             
-            <div id="skills" className="flex justify-between w-full">
-                <div className="flex flex-col lg:w-1/4">
-                    <h2 className="font-bold text-xl text-neutral-800 uppercase">Skills</h2>
-                    <div className="border-b-2 border-orange-500 w-16 mt-1"></div>
+            <div id="skills" className="flex flex-col md:flex-row items-center md:items-start justify-between w-full">
+                <div className="flex flex-col md:w-1/4">
+                    <div className="relative inline-block pb-4">
+                        <h2 className="font-bold text-xl text-neutral-800 uppercase border-b-2 border-orange-500 pb-1 inline-block">Skills</h2>
+                    </div>
                 </div>
 
-                <div className="flex flex-col w-full lg:w-3/4">
+                <div className="flex flex-col w-full md:w-3/4">
                     {/* Row 1: Frontend and Backend */}
-                    <div className="flex justify-between gap-x-6 mb-8">
-                        <div className="flex flex-col items-center lg:w-1/2">
+                    <div className="flex flex-col md:flex-row justify-between gap-y-6 md:gap-y-0 md:gap-x-6 mb-8">
+                        <div className="flex flex-col items-center md:w-1/2">
                             <h2 className="font-semibold text-lg text-neutral-700">Frontend development</h2>
                             <div className="flex flex-col gap-y-2 items-start w-full">
                                 {/* React */}
@@ -88,7 +91,7 @@ const ResumeSection = () => {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center lg:w-1/2">
+                        <div className="flex flex-col items-center md:w-1/2">
                             <h2 className="font-semibold text-lg text-neutral-700">Backend development</h2>
                             <div className="flex flex-col gap-y-2 items-start w-full">
                                 {/* Python */}
@@ -124,8 +127,8 @@ const ResumeSection = () => {
                     </div>
 
                     {/* Row 2: Databases and Mobile */}
-                    <div className="flex justify-between gap-x-6">
-                        <div className="flex flex-col items-center lg:w-1/2">
+                    <div className="flex flex-col md:flex-row justify-between gap-y-6 md:gap-y-0 md:gap-x-6 mb-8">
+                        <div className="flex flex-col items-center md:w-1/2">
                             <h2 className="font-semibold text-lg text-neutral-700">Databases</h2>
                             <div className="flex flex-col gap-y-2 items-start w-full">
                                 {/* SQLite */}
@@ -152,7 +155,7 @@ const ResumeSection = () => {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center lg:w-1/2">
+                        <div className="flex flex-col items-center md:w-1/2">
                             <h2 className="font-semibold text-lg text-neutral-700">Mobile development</h2>
                             <div className="flex flex-col gap-y-2 items-start w-full">
                                 {/* React Native */}

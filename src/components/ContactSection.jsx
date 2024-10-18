@@ -11,16 +11,16 @@ const ContactSection = () => {
                 <div className="flex flex-col gap-6">
                     {/* Row 1: Get in touch */}
                     <div className="flex items-center gap-6">
-                        <LuMail size={60} className="text-white" />
-                        <h2 className="text-white text-2xl font-medium">Get in touch.</h2>
+                        <LuMail size={40} md:size={60} className="text-white" />
+                        <h2 className="text-white text-xl md:text-2xl font-medium">Get in touch.</h2>
                     </div>
                     {/* Row 2: Form and Social Media */}
-                    <div className="flex w-full gap-6">
+                    <div className="flex flex-col md:flex-row w-full gap-6">
                         {/* Contact Form */}
                         <ContactForm />
 
                         {/* Socials */}
-                        <div className="flex flex-col w-1/2 gap-y-4">
+                        <div className="order-1 md:order-2 text-sm md:text-base flex flex-col md:w-1/2 gap-y-4">
                             <p>Thanks for visiting! Feel free to leave a message here, explore my <a href="#" className="font-semibold hover:underline">projects</a>, or download my <a href="./public/resume.pdf" download className="font-semibold hover:underline">resume</a>.</p>
                             <div className="flex items-center gap-x-3">
                                 <LuMail size={20} className="text-white" />

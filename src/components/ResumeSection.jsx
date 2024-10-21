@@ -41,7 +41,7 @@ const ResumeSection = () => {
                         <span>•</span>
                         <span>Jan 2020 - Sept 2021</span>
                     </div>
-                    <p>This is where I will discuss my role with this employer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aut libero voluptatibus sit, deleniti, officiis nihil autem quaerat harum sint ex numquam temporibus recusandae minus, cupiditate odit error in placeat.</p>
+                    <p>Adhered to operational checklists ensuring accurate execution of daily processing, performed troubleshooting of systems and monitored networks for anomalies. Worked to develop strong and effective relationships with our customers.</p>
                 </div>
             </div>
             
@@ -137,29 +137,16 @@ const ResumeSection = () => {
                                     <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
                                         <div className="h-full rounded-full bg-orange-400 w-10/12"></div>
                                     </div>
-                                </div>
-                                {/* MySQL */}
-                                <div className="flex flex-col w-full">
-                                    <span className="ml-2 text-sm">MySQL</span>
-                                    <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
-                                        <div className="h-full rounded-full bg-orange-400 w-3/4"></div>
-                                    </div>
-                                </div>
-                                {/* MongoDB */}
-                                <div className="flex flex-col w-full">
-                                    <span className="ml-2 text-sm">MongoDB</span>
-                                    <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
-                                        <div className="h-full rounded-full bg-orange-400 w-3/5"></div>
-                                    </div>
-                                </div>                                    
+                                </div>                                   
                             </div>
                         </div>
 
+{/*}
                         <div className="flex flex-col items-center md:w-1/2">
                             <h2 className="font-semibold text-lg text-neutral-700">Mobile development</h2>
                             <div className="flex flex-col gap-y-2 items-start w-full">
                                 {/* React Native */}
-                                <div className="flex flex-col w-full">
+{/*                                <div className="flex flex-col w-full">
                                     <span className="ml-2 text-sm">React Native</span>
                                     <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
                                         <div className="h-full rounded-full bg-orange-400 w-10/12"></div>
@@ -167,6 +154,7 @@ const ResumeSection = () => {
                                 </div>
                             </div>
                         </div>
+*/}                    
                     </div>
                 </div>
             </div>

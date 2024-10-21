@@ -112,21 +112,28 @@ const ResumeSection = () => {
                                 <div className="flex flex-col w-full">
                                     <span className="ml-2 text-sm">Node.js</span>
                                     <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
-                                        <div className="h-full rounded-full bg-orange-400 w-8/12"></div>
+                                        <div className="h-full rounded-full bg-orange-400 w-3/4"></div>
                                     </div>
                                 </div>
                                 {/* Express.js */}
                                 <div className="flex flex-col w-full">
                                     <span className="ml-2 text-sm">Express.js</span>
                                     <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
-                                        <div className="h-full rounded-full bg-orange-400 w-8/12"></div>
+                                        <div className="h-full rounded-full bg-orange-400 w-3/4"></div>
                                     </div>
-                                </div>           
+                                </div>
+                                {/* R */}
+                                <div className="flex flex-col w-full">
+                                    <span className="ml-2 text-sm">R</span>
+                                    <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
+                                        <div className="h-full rounded-full bg-orange-400 w-2/3"></div>
+                                    </div>
+                                </div>            
                             </div>
                         </div>
                     </div>
 
-                    {/* Row 2: Databases and Mobile */}
+                    {/* Row 2: Databases and Technologies */}
                     <div className="flex flex-col md:flex-row justify-between gap-y-6 md:gap-y-0 md:gap-x-6 mb-8">
                         <div className="flex flex-col items-center md:w-1/2">
                             <h2 className="font-semibold text-lg text-neutral-700">Databases</h2>
@@ -141,20 +148,25 @@ const ResumeSection = () => {
                             </div>
                         </div>
 
-{/*}
                         <div className="flex flex-col items-center md:w-1/2">
-                            <h2 className="font-semibold text-lg text-neutral-700">Mobile development</h2>
+                            <h2 className="font-semibold text-lg text-neutral-700">Technologies</h2>
                             <div className="flex flex-col gap-y-2 items-start w-full">
-                                {/* React Native */}
-{/*                                <div className="flex flex-col w-full">
-                                    <span className="ml-2 text-sm">React Native</span>
+                                {/* Linux */}
+                               <div className="flex flex-col w-full">
+                                    <span className="ml-2 text-sm">Linux</span>
                                     <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
-                                        <div className="h-full rounded-full bg-orange-400 w-10/12"></div>
+                                        <div className="h-full rounded-full bg-orange-400 w-3/4"></div>
+                                    </div>
+                                </div>
+                                {/* Git */}
+                               <div className="flex flex-col w-full">
+                                    <span className="ml-2 text-sm">Git</span>
+                                    <div className="h-5 overflow-hidden rounded-full bg-neutral-300">
+                                        <div className="h-full rounded-full bg-orange-400 w-2/3"></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-*/}                    
+                        </div>                  
                     </div>
                 </div>
             </div>
